@@ -9,7 +9,7 @@
   inputs = {
     # Follow chat_module's own builder, so the logos-protocol/logos-qt-sdk
     # chain matches across both.
-    logos-module-builder.follows = "chat_module/logos-module-builder";
+    logos-module-builder.url = "github:logos-co/logos-module-builder";
     # Pinned to the v0.2.2 release tag: this view and the module it renders are
     # released in lockstep, so the module built here is the release the package
     # manager resolves.
